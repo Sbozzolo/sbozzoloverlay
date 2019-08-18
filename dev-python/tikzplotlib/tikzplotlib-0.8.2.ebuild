@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6} )
+PYTHON_COMPAT=( python3_{5,6} )
 
 inherit distutils-r1 virtualx
 
@@ -14,7 +14,6 @@ KEYWORDS="~amd64"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="test"
 
 RDEPEND="
         dev-python/matplotlib[${PYTHON_USEDEP}]
