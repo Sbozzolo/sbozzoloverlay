@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>sbozzoloverlay</name>
+    <description>Packages I use difficult to find around (mostly for science) </description>
+    <owner>
+      <email>sbozzolator@gmail.com</email>
+      <name>sbozzolo</name>
+    </owner>
+    <source type="git">https://github.com/Sbozzolo/sbozzoloverlay.git</source>
+  </repo>
+</repositories>
