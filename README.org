@@ -1,0 +1,13 @@
+#+TITLE:Sbozzoloverlay
+
+=sbozzoloverlay= contains misc ebuilds for packages that are not available
+elsewhere or not updated enough. The quality of the ebuilds is poor, as this
+overlay is for personal use.
+
+** Installation
+Install with:
+#+BEGIN_SRC sh
+   sudo layman -o https://raw.githubusercontent.com/Sbozzolo/sbozzoloverlay/master/sbozzoloverlay.xml -f -a sbozzoloverlay
+#+END_SRC
+Ignore the warnings about not being in the remote list, which are due to the
+fact that this overlay is not official.
