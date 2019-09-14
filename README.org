@@ -11,3 +11,7 @@ Install with:
 #+END_SRC
 Ignore the warnings about not being in the remote list, which are due to the
 fact that this overlay is not official.
+** Packages
+   - =app-emacs-26.3= (patched with support to ImageMagick 7)
+   - =cpplint-9999=
+   - =tikzplotlib-9999=
